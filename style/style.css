@@ -91,6 +91,23 @@ main{
     color: rgb(1, 86, 18);
     transition: 2s;
 }
+
+img#bananaDecor,img#folhaDecorSecd,img#folhaDecor{
+    position: absolute;
+    right: 0;
+    top: 290vw;
+    height: 25vw;
+}
+img#folhaDecor{
+    top:0;
+    height: 70vw;
+}
+img#folhaDecorSecd{
+    left:-1vw;
+    top: 275vw;
+    height: 40vw;
+}
+
 .segundoConteudo{
     text-align: center;
     background-image: url(../img/textura_banner02.webp);
