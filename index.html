@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" type="imagex/png" href="./img/logoDaPraca.webp">
+    <title>Da Praça</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg">
+                <rect width="25" height="5"  fill="white" rx="2" ry="2"/>
+                <rect width="25" height="5"  fill="White" y="7" rx="2" ry="2"/>
+                <rect width="25" height="5"  fill="white" y="15" rx="2" ry="2"/>
+            </svg>
+        </div>
+        <div class="logo">
+            <img src="./img/logoDaPraca.webp" />
+        </div>
+    </header>
+
+    <main>
+
+        <div class="banner">
+            <div class="titulo">
+                <img src="./img/bananaTitulo.webp" />
+            </div>
+            <div class="fruta">
+                <img src="./img/banana.webp" />
+            </div>
+            <div class="conteudo">
+                <h1 id="numero">10</h1>
+                <h1 id="titulo">Benefícios da banana</h1>
+                <div class="lista">
+                    <ul>
+                        <li onclick="mostrarLista(1)"><img src="./img/icon.webp" /> 1.Previne câibras
+                            <p id="prgf-1">A banana ajuda a evitar cãibras porque 
+                                tem bastante potássio, um mineral que 
+                                mantém os músculos funcionando bem. Quando 
+                                fazemos exercícios, nosso corpo perde alguns 
+                                minerais importantes pelo suor. Se faltar 
+                                potássio, os músculos podem ficar tensos 
+                                e causar aquela dor chata da cãibra. Comer 
+                                banana ajuda a repor esse mineral e evita 
+                                que isso aconteça, deixando os músculos fortes 
+                                e saudáveis! 🍌💪</p>
+                        </li>
+                        <li onclick="mostrarLista(2)"><img src="./img/icon.webp" /> 2.Relaxa os nervos
+                            <p id="prgf-2">A banana ajuda a relaxar os nervos porque 
+                                tem um mineral chamado potássio, que mantém o 
+                                cérebro e o corpo funcionando bem. Além disso, 
+                                ela contém triptofano, uma substância que ajuda 
+                                a produzir serotonina, um hormônio que traz sensação 
+                                de calma e felicidade. Comer banana pode ajudar 
+                                a diminuir o estresse e deixar a mente mais 
+                                tranquila! 🍌😊</p>
+                        </li>
+                        <li onclick="mostrarLista(3)"><img src="./img/icon.webp" /> 3.Ajuda a emagrecer
+                            <p id="prgf-3">A banana ajuda a emagrecer porque tem fibras, 
+                                que fazem a gente se sentir cheio por mais tempo, 
+                                evitando aquela fome rápida. Além disso, ela dá 
+                                energia de um jeito saudável, sem precisar comer 
+                                besteiras. Como é doce e natural, pode ser um ótimo 
+                                lanche para matar a vontade de comer doces sem 
+                                exagerar nas calorias! 🍌😊</p>
+                        </li>
+                        <li onclick="mostrarLista(4)"><img src="./img/icon.webp" /> 4.Reduz o colesterol
+                            <p id="prgf-4">A banana ajuda a reduzir o colesterol porque tem 
+                                fibras chamadas pectina, que ajudam a limpar o 
+                                excesso de gordura no sangue. Quando comemos 
+                                alimentos com fibra, como a banana, ela ajuda 
+                                a diminuir o colesterol ruim e manter o coração 
+                                mais saudável. Comer banana regularmente pode 
+                                ser uma boa forma de cuidar do corpo e da saúde 
+                                do coração! 🍌❤️</p>
+                        </li>
+                        <li onclick="mostrarLista(5)"><img src="./img/icon.webp" /> 5.Fortalece o sistema imune
+                            <p id="prgf-5">A banana fortalece o sistema imunológico porque 
+                                contém vitaminas como a vitamina C e B6, que 
+                                ajudam o corpo a lutar contra doenças. A vitamina 
+                                C fortalece as defesas naturais do corpo, e a 
+                                vitamina B6 ajuda a manter o sistema imunológico 
+                                funcionando direitinho. Comer banana pode ajudar 
+                                o corpo a ficar mais protegido contra resfriados 
+                                e outras doenças! 🍌🛡️</p>
+                        </li>
+                        <li onclick="mostrarLista(6)"><img src="./img/icon.webp" /> 6.Mantém a pele saudável
+                            <p id="prgf-6">A banana ajuda a manter a pele saudável porque é 
+                                rica em vitamina C e antioxidantes, que protegem 
+                                a pele contra danos e ajudam na produção de colágeno, 
+                                uma proteína que deixa a pele firme e jovem. Além disso, 
+                                ela tem potássio, que hidrata e mantém a pele macia. 
+                                Comer banana regularmente pode deixar sua pele mais 
+                                bonita e saudável! 🍌✨</p>
+                        </li>
+                        <li onclick="mostrarLista(7)"><img src="./img/icon.webp" /> 7.Combate o reumatismo
+                            <p id="prgf-7">A banana pode ajudar a combater o reumatismo porque é rica em 
+                                potássio, que ajuda a reduzir a inflamação e a dor nas articulações. 
+                                Além disso, ela contém antioxidantes e vitaminas, como a vitamina C, 
+                                que ajudam a proteger as articulações e a reduzir os efeitos do 
+                                reumatismo. Comer banana regularmente pode ser uma forma de aliviar 
+                                os sintomas e melhorar a saúde das articulações! 🍌💪</p>
+                        </li>
+                        <li onclick="mostrarLista(8)"><img src="./img/icon.webp" />  8.Aumenta o metabolismo
+                            <p id="prgf-8">A banana ajuda a aumentar o metabolismo 
+                                porque é rica em vitaminas e minerais, como a vitamina B6, 
+                                que desempenha um papel importante na produção de energia. 
+                                Ela também tem carboidratos de absorção rápida, que fornecem 
+                                energia para o corpo trabalhar melhor e acelerar o processo de 
+                                queima de calorias. Comer banana pode dar aquele "empurrãozinho" 
+                                para o corpo funcionar de forma mais eficiente! 🍌⚡</p>
+                        </li>
+                        <li onclick="mostrarLista(9)"><img src="./img/icon.webp" /> 9.Previne o cancêr
+                            <p id="prgf-9">A banana pode ajudar a prevenir o câncer porque contém antioxidantes, 
+                                como a vitamina C e os compostos chamados flavonoides, que protegem 
+                                as células do corpo contra danos causados pelos radicais livres. 
+                                Esses antioxidantes ajudam a reduzir o risco de doenças, incluindo o 
+                                câncer. Além disso, as fibras da banana auxiliam na digestão e na 
+                                eliminação de toxinas, o que também é importante para a saúde a longo 
+                                prazo. Comer banana pode ser uma forma natural de apoiar a prevenção 
+                                de doenças! 🍌</p>
+                        </li>
+                        <li onclick="mostrarLista(10)"><img src="./img/icon.webp" /> 10.Dá mais energia
+                            <p id="prgf-10" >A banana dá mais energia porque é rica em carboidratos naturais, 
+                                que o corpo usa como combustível para atividades físicas e mentais. 
+                                Além disso, ela tem vitaminas, como a B6, que ajudam a transformar 
+                                os alimentos em energia de forma mais eficiente. Comer uma banana 
+                                antes ou depois de um exercício pode te dar aquele impulso extra 
+                                para continuar ativo e cheio de disposição! 🍌⚡</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+           
+        </div>
+        <div class="segundoConteudo">
+            <h1 id="numero">5</h1>
+            <h1 id="titulo">Receitas com banana</h1>
+            <div class="receitas">
+                <div class="box">
+                    <h1>Doce de Banana</h1>
+                    <div class="receitaImage" id="primeiraBox"></div>
+                    <button type="button"><a href="https://www.tudogostoso.com.br/receita/134487-doce-de-banana-caseiro.html">clique e confira</a></button>
+                </div>
+                <div class="box">
+                    <h1>Bolinho de Banana</h1>
+                    <div class="receitaImage" id="segundaBox"></div>
+                    <button type="button"><a href="https://www.tudogostoso.com.br/receita/8870-bolinho-de-banana-frito.html">clique e confira</a></button>
+                </div>
+                <div class="box">
+                    <h1>Coockie de Banana</h1>
+                    <div class="receitaImage" id="terceiraBox"></div>
+                    <button type="button"><a href="https://www.tudogostoso.com.br/receita/175719-cookie-de-banana.html">clique e confira</a></button>
+                </div>
+                <div class="box">
+                    <h1>Smoothie de Banana</h1>
+                    <div class="receitaImage" id="quartaBox"></div>
+                    <button type="button"><a href="https://www.tudogostoso.com.br/receita/185040-smoothie-de-banana.html">clique e confira</a></button>
+                </div>                                                
+            </div>
+        </div>
+
+    </main>
+    
+    <footer>
+        <div class="logo"><img src="./img/logoDaPraca.webp" /></div>
+        <div class="links">
+            <ul class="social">
+                <li>Redes Sociais</li>
+                <li><a href="https://www.instagram.com/dapraca.ba/#" class="linksFooter">Instagram</a></li>
+                <li><a href="https://www.facebook.com/DAPRACA.101" class="linksFooter">Facebook</a></li>
+                <li><a href="https://wa.me/7399525483" class="linksFooter">Whatsapp</a></li>
+                <li><a href="https://www.tiktok.com/@dapracasup" class="linksFooter">TikTok</a></li>
+            </ul>
+            <ul class="legislacao">
+                <li><a href="https://dapraca.com.br/trabalhe-conosco" class="linksFooter"></a>Trabalhe conosco</li>
+                <li><a href="http://drive.google.com/file/d/1_ZLD1VrG0oOE9xp1bsbVld3anKbNLQu3/view?usp=drivesdk" class="linksFooter">Relatorio de Transparencia <br>Salarial Prado</a></li>
+                <li><a href="http://drive.google.com/file/d/1_ZLD1VrG0oOE9xp1bsbVld3anKbNLQu3/view?usp=drivesdk" class="linksFooter">Relatorio de Transparencia <br>Salarial Posto da Mata</a></li>
+                <li><a href="http://drive.google.com/file/d/1UedTH2nlpaEUJwHx6izs_O_1IzoUOiC6/view?usp=drivesdk" class="linksFooter">Relatorio de Transparencia <br>Salarial Itabatã</a></li>
+                <li><a href="https://www.instagram.com/matospedroo">Desenvolvido por: @matospedroo</a></li>
+            </ul>
+            <ul class="mobile">
+                <p>
+                    <a href="https://www.instagram.com/dapraca.ba/#" class="linksFooter">Instagram</a> ★ <a href="https://wa.me/7399525483" class="linksFooter">Whatsapp</a> ★ <a href="https://www.facebook.com/DAPRACA.101" class="linksFooter">Facebook</a> ★ <a href="https://www.tiktok.com/@dapracasup" class="linksFooter">TikTok</a><br>
+                    <a href="https://dapraca.com.br/trabalhe-conosco" class="linksFooter">Trabalhe conosco</a> | <a href="http://drive.google.com/file/d/1_ZLD1VrG0oOE9xp1bsbVld3anKbNLQu3/view?usp=drivesdk" class="linksFooter">Relatorio de transparencia Salarial Posto da Mata</a><br>
+                    <a href="http://drive.google.com/file/d/1_ZLD1VrG0oOE9xp1bsbVld3anKbNLQu3/view?usp=drivesdk" class="linksFooter">Relatorio de transparencia Salarial Prado</a> | <a href="http://drive.google.com/file/d/1UedTH2nlpaEUJwHx6izs_O_1IzoUOiC6/view?usp=drivesdk" class="linksFooter">Relatorio de transparencia Salarial Itabatã</a><br>
+                    <a href="https://www.instagram.com/matospedroo">Desenvolvido por: @matospedroo</a>
+                    
+
+                </p>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        var nav = document.querySelector('header');
+window.addEventListener("scroll", function(event) {
+            if(window.pageYOffset>10){
+
+                nav.style.background = "rgba(237, 222, 31,0.35)";
+                nav.style.boxShadow = "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )";
+                nav.style.backdropFilter = "blur( 13.5px )";
+                nav.style.webkitBackdropFilter = "blur( 13.5px )";
+                nav.style.borderRadius = " 0  0 10px 10px";
+                nav.style.border = "1px solid rgba( 255, 255, 255, 0.18 )";
+
+            }
+            else{
+                nav.style.background = "transparent";
+                nav.style.boxShadow = "none";
+                nav.style.backdropFilter = "none";
+                nav.style.webkitBackdropFilter = "none";
+                nav.style.borderRadius = "none";
+                nav.style.border = "none";
+
+            }
+        });
+
+       function mostrarLista(id){
+        if(document.getElementById("prgf-"+id).offsetParent == null){
+        document.querySelectorAll(".banner .conteudo .lista ul li p").forEach(bloco => bloco.style.display = "none");
+        document.getElementById("prgf-"+id).style.display = "block";}else{document.querySelectorAll(".banner .conteudo .lista ul li p").forEach(bloco => bloco.style.display = "none");}
+       }
+    </script>
+</body>
+</html>
