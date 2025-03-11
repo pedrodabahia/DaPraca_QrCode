@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/styleBanana.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <link rel="shortcut icon" type="imagex/png" href="./img/logoDaPraca.webp">
     <title>Da Praça</title>
 </head>
@@ -163,31 +163,10 @@
                 <li><a href="https://www.facebook.com/DAPRACA.101" class="linksFooter"><img src="./img/face.webp" /></a></li>
                 <li><a href="https://wa.me/7399525483" class="linksFooter"><img src="./img/wpp.webp" /></a></li>
                 <li><a href="https://www.tiktok.com/@dapracasup" class="linksFooter"><img src="./img/ttk.webp" /></a></li>
+            </ul>
+            <h2><a href="https://www.instagram.com/matospedroo/">Desenvolvido por: @matospedroo</a></h2>
     </footer>
     <script>
-        var nav = document.querySelector('header');
-window.addEventListener("scroll", function(event) {
-            if(window.pageYOffset>10){
-
-                nav.style.background = "rgba(237, 222, 31,0.35)";
-                nav.style.boxShadow = "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )";
-                nav.style.backdropFilter = "blur( 13.5px )";
-                nav.style.webkitBackdropFilter = "blur( 13.5px )";
-                nav.style.borderRadius = " 0  0 10px 10px";
-                nav.style.border = "1px solid rgba( 255, 255, 255, 0.18 )";
-
-            }
-            else{
-                nav.style.background = "transparent";
-                nav.style.boxShadow = "none";
-                nav.style.backdropFilter = "none";
-                nav.style.webkitBackdropFilter = "none";
-                nav.style.borderRadius = "none";
-                nav.style.border = "none";
-
-            }
-        });
-
        function mostrarLista(id){
         if(document.getElementById("prgf-"+id).offsetParent == null){
         document.querySelectorAll(".banner .conteudo .lista ul li p").forEach(bloco => bloco.style.display = "none");
