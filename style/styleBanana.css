@@ -228,9 +228,6 @@ footer .links{
     text-align: center;
 }
 footer .links ul{
-    display: none;
-}
-footer .links ul:last-child{
     display: block;
     display: flex;
     flex-wrap: wrap;
@@ -244,4 +241,9 @@ footer .links ul a{
 footer .links ul li img{
     width: 4vw;
     margin: 1vw;
+}
+footer .links h2 a{
+    color: #ffb400 ;
+    text-decoration: none;
+    font-size:1.2vw ;
 }
